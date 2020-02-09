@@ -117,10 +117,10 @@
           var data = res.list[j].arr;
           var liTmpl = "";
           for (var i = 0, len = data.link.length; i < len; i++) {
-           var minSrc = 'http://q5f76huty.bkt.clouddn.com/min_photos/' + data.link[i];
-           // var minSrc = 'https://raw.githubusercontent.com/willwudk/photo_album/master/min_photos/' + data.link[i];
-            //var src = 'https://raw.githubusercontent.com/willwudk/photo_album/master/photos/' + data.link[i];
-            var src = 'http://q5f76huty.bkt.clouddn.com/' + data.link[i];
+           //var minSrc = 'http://q5f76huty.bkt.clouddn.com/min_photos/' + data.link[i];
+            var minSrc = 'https://raw.githubusercontent.com/willwudk/my-blog-photos/master/min_photos/' + data.link[i];
+            var src = 'https://raw.githubusercontent.com/willwudk/my-blog-photos/master/photos/' + data.link[i];
+            //var src = 'http://q5f76huty.bkt.clouddn.com/' + data.link[i];
             //var minSrc = 'https://hexo-will-blog-1258353237.cos-website.ap-shanghai.myqcloud.com/min_photos/' + data.link[i];
            // var src = 'https://hexo-will-blog-1258353237.cos-website.ap-shanghai.myqcloud.com/photos/' + data.link[i];
             
